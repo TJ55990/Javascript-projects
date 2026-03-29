@@ -1,2 +1,4 @@
-# Javascript-projects
-A collection of JavaScript assignments and projects from my course.
+# JavaScript Projects
+This repository contains all my JavaScript coding assignments and projects from the course. 
+Each folder corresponds to a different assignment or challenge, and code will be updated regularly.
+Click Commit changes to save.

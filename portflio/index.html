@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+/* NAV */
+nav {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #f8c8dc, #d4f1f4);
+  padding: 60px;
+  text-align: center;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+/* ASSIGNMENTS */
+.assignment {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.projects img {
+  width: 220px;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.projects img:hover {
+  transform: scale(1.05);
+}
+
+/* LIGHTBOX */
+#lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  text-align: center;
+}
+
+#lightbox img {
+  margin-top: 80px;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#assignments">Assignments</a>
+  <a href="#projects">Projects</a>
+</nav>
+
+<div class="hero">
+  <h1>Hello, I'm TJ</h1>
+  <p>Beginner Web Developer</p>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am learning HTML, CSS, and JavaScript. This is my portfolio.This portfolio shows my works on web development.</p>
+</section>
+
+<section id="assignments">
+  <h2>My Assignments</h2>
+
+  <div class="assignment">
+    <h3>Assignment 1</h3>
+    <p>In this assignment, I created my first webpage using basic HTML structure. 
+      I learned how to use headings, paragraphs, lists, and images, and how to organize content properly using semantic tags.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>Assignment 2</h3>
+    <p> This assignment focused on improving the visual design of a webpage using CSS. 
+      I applied colours, fonts, spacing, and layout techniques to make the page more 
+      attractive and readable.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>Assignment 3</h3>
+    <p> In this project, I built a responsive webpage that adjusts to different screen sizes. I used flexible layouts and basic media queries to ensure the website works well on both desktop and mobile devices.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>Assignment 4</h3>
+    <p> This assignment introduced JavaScript to add interactivity to the website. 
+      I implemented features such as button actions, smooth scrolling, and dynamic 
+      content updates to improve user experience..</p>
+  </div>
+
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="projects">
+    <img src="images/plant1-small.jpg" class="gallery-img">
+    <img src="images/plant2-small.jpg" class="gallery-img">
+    <img src="images/plant3-small.jpg" class="gallery-img">
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox">
+  <img id="lightbox-img">
+</div>
+
+<footer>
+  <p>© 2026 TJ Portfolio</p>
+</footer>portfolio
+
+<!-- LINK JS FILE -->
+<script src="portfolio.js"></script>
+
+</body>
+</html>
